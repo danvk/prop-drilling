@@ -11,13 +11,13 @@ Here are the variations on the theme:
 
 |Technique|Demo|Lines|Notes|
 |---------|-------|-----|-----|
-|[Initial Example](/00a-initial.tsx)|[codepen][00a-initial]|64|Starter app with two synchronized counters|
-|[Fully Threaded](/00b-fully-threaded.tsx)|[codepen][00b-fully-threaded]|99|Going up to three counters illustrates the problem of prop drilling.|
-|[Fewer Components](/01-fewer-components.tsx)|[codepen][01-fewer-components]|46|By inlining separate components, we dramatically reduce the amount of code.|
-|[Single Object](/02-single-object.tsx)|[codepen][02-single-object]|88|Merging related props into a single object eliminates intermediate components' need to know the details of that object.|
-|[Use Children](/03-use-children.tsx)|[codepen][03-use-children]|72|By passing `children` to a container component, we free it from having to understand its children's props.|
-|[Context API](/04-context-api.tsx)|[codepen][04-context-api]|91|React's [Context API][context-api] provides a built-in way to do dependency injection.|
-|[Pick Props](05-pick-props.tsx)|[codepen][05-pick-props]|93|A TypeScript-friendly way to have one component "pick" props from another, both for types and at runtime.|
+|[Initial Example](/src/00a-initial.tsx)|[codepen][00a-initial]|64|Starter app with two synchronized counters|
+|[Fully Threaded](/src/00b-fully-threaded.tsx)|[codepen][00b-fully-threaded]|99|Going up to three counters illustrates the problem of prop drilling.|
+|[Fewer Components](/src/01-fewer-components.tsx)|[codepen][01-fewer-components]|46|By inlining separate components, we dramatically reduce the amount of code.|
+|[Single Object](/src/02-single-object.tsx)|[codepen][02-single-object]|88|Merging related props into a single object eliminates intermediate components' need to know the details of that object.|
+|[Use Children](/src/03-use-children.tsx)|[codepen][03-use-children]|72|By passing `children` to a container component, we free it from having to understand its children's props.|
+|[Context API](/src/04-context-api.tsx)|[codepen][04-context-api]|91|React's [Context API][context-api] provides a built-in way to do dependency injection.|
+|[Pick Props](/src/05-pick-props.tsx)|[codepen][05-pick-props]|93|A TypeScript-friendly way to have one component "pick" props from another, both for types and at runtime.|
 
 Do you have another way you like to deal with prop drilling? Send a PR to add it!
 
